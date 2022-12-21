@@ -1,0 +1,41 @@
+{
+  "name": "mentions",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^15.0.0",
+    "@angular/core": "^15.0.0"
+  },
+  "homepage": "",
+  "keywords": [
+    "angular",
+    "javascript",
+    "typescript",
+    "component",
+    "mentions",
+    "input-highlight",
+    "autocomplete"
+  ],
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "module": "fesm2015/mentions.mjs",
+  "es2020": "fesm2020/mentions.mjs",
+  "esm2020": "esm2020/mentions.mjs",
+  "fesm2020": "fesm2020/mentions.mjs",
+  "fesm2015": "fesm2015/mentions.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/mentions.mjs",
+      "es2020": "./fesm2020/mentions.mjs",
+      "es2015": "./fesm2015/mentions.mjs",
+      "node": "./fesm2015/mentions.mjs",
+      "default": "./fesm2020/mentions.mjs"
+    }
+  },
+  "sideEffects": false
+}
